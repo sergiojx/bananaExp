@@ -11,3 +11,8 @@ https://unix.stackexchange.com/questions/283722/how-to-connect-to-wifi-from-comm
 
 ## armbian
 https://www.armbian.com/
+
+## FTDI setup on MAC
+https://learn.sparkfun.com/ftdiDriversMac
+https://www.ftdichip.com/Drivers/VCP.htm
+https://www.ftdichip.com/Support/Documents/InstallGuides/Mac_OS_X_Installation_Guide.pdf
