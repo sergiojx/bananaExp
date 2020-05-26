@@ -17,5 +17,5 @@ https://learn.sparkfun.com/ftdiDriversMac
 https://www.ftdichip.com/Drivers/VCP.htm
 https://www.ftdichip.com/Support/Documents/InstallGuides/Mac_OS_X_Installation_Guide.pdf
 ```
-~ $ screen tty.usbserial-A505AN1O 115200'
+~ $ screen tty.usbserial-A505AN1O 115200
 ```
