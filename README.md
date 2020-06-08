@@ -19,3 +19,5 @@ https://www.ftdichip.com/Support/Documents/InstallGuides/Mac_OS_X_Installation_G
 ```
 ~ $ screen tty.usbserial-A505AN1O 115200
 ```
+## Network Manager
+https://wiki.archlinux.org/index.php/NetworkManager  
