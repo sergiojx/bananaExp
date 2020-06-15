@@ -21,3 +21,13 @@ https://www.ftdichip.com/Support/Documents/InstallGuides/Mac_OS_X_Installation_G
 ```
 ## Network Manager
 https://wiki.archlinux.org/index.php/NetworkManager  
+
+## Download, install, and set up the Linux workload 
+### Download, install, and set up the Linux workload
+https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-development-workload?view=vs-2019  
+```
+~ $ sudo apt-get install openssh-server g++ gdb make ninja-build rsync zip
+```
+
+### Create a new Linux project
+https://docs.microsoft.com/en-us/cpp/linux/create-a-new-linux-project?view=vs-2019  
