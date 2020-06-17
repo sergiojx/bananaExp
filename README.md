@@ -26,6 +26,8 @@ https://wiki.archlinux.org/index.php/NetworkManager
 ```
 root@bananapim2ultra:/# nmcli con add type ethernet con-name fradio ifname eth0 ip4 110.168.0.14/24 gw4 110.168.0.1  
 Connection 'fradio' (b0fabb6f-06a3-4d9a-be57-4757dca14cfe) successfully added.  
+root@bananapim2ultra:/# nmcli con up fradio
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/29)
 
 ```
 
@@ -38,3 +40,10 @@ https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-
 
 ### Create a new Linux project
 https://docs.microsoft.com/en-us/cpp/linux/create-a-new-linux-project?view=vs-2019  
+
+
+## eMMC copy-clone
+
+https://forum.armbian.com/topic/11404-how-to-clone-emmc-nanopi-neo-core/  
+
+
