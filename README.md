@@ -22,6 +22,13 @@ https://www.ftdichip.com/Support/Documents/InstallGuides/Mac_OS_X_Installation_G
 ## Network Manager
 https://wiki.archlinux.org/index.php/NetworkManager  
 
+### eth0 static setup  
+```
+root@bananapim2ultra:/# nmcli con add type ethernet con-name fradio ifname eth0 ip4 110.168.0.14/24 gw4 110.168.0.1  
+Connection 'fradio' (b0fabb6f-06a3-4d9a-be57-4757dca14cfe) successfully added.  
+
+```
+
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
 https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-development-workload?view=vs-2019  
