@@ -76,10 +76,10 @@ wlan0   wifi      connected  UP 1
 ```
 With this commnad. And reboot
 ```
-root@bananapim2ultra:/# nmcli con mod "UP 1" ipv4.route-metric 99
+root@bananapim2ultra:/# nmcli con mod UP ipv4.route-metric 99
 
 ```
-
+This command wont work is actual connection name is "UP 1" or "UP 2", etc
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
 https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-development-workload?view=vs-2019  
