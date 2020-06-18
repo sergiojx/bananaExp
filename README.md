@@ -74,6 +74,11 @@ eth0    ethernet  connected  fradio
 wlan0   wifi      connected  UP 1
 
 ```
+With this commnad. And reboot
+```
+root@bananapim2ultra:/# nmcli con mod "UP 1" ipv4.route-metric 99
+
+```
 
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
