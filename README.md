@@ -30,6 +30,8 @@ root@bananapim2ultra:/# nmcli con up fradio
 Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/29)
 
 ```
+#### Ups wlan0 is no longer the default interface
+
 
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
