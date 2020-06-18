@@ -31,7 +31,7 @@ Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkMa
 
 ```
 #### Ups wlan0 is no longer the default interface
-If eth0 is down, wlan0 gets up. Nest command will show wlan0 connection preogres/status
+If eth0 is down, wlan0 gets up. Next command will show wlan0 connection preogres/status
 ```
 root@bananapim2ultra:/# nmcli d
 DEVICE  TYPE      STATE         CONNECTION 
