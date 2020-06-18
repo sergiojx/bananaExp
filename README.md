@@ -78,7 +78,7 @@ With this commnad. And reboot
 ```
 root@bananapim2ultra:~# nmcli con mod UP ipv4.route-metric 98
 ```
-This command wont work is actual connection name is "UP 1" or "UP 2", etc
+This command wont work is actual connection name is "UP 1" or "UP 2", etc.  
 New output will be:
 ```
 root@bananapim2ultra:~# route -n
