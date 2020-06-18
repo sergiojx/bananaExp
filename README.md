@@ -31,7 +31,49 @@ Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkMa
 
 ```
 #### Ups wlan0 is no longer the default interface
+If eth0 is down, wlan0 gets up. Nest command will show wlan0 connection preogres/status
+```
+root@bananapim2ultra:/# nmcli d
+DEVICE  TYPE      STATE         CONNECTION 
+wlan0   wifi      connected     UP 1       
+eth0    ethernet  disconnected  --         
+lo      loopback  unmanaged     --   
+```
+This command shows default gateway
+```
+ip route show
+```
+One way to solve this isse
+```
+ip route delete default
+ip route add default via 192.168.1.1
+```
+OR change wlan0 priorety
+```
+root@bananapim2ultra:/# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.1     0.0.0.0         UG    600    0        0 wlan0
+192.168.0.0     0.0.0.0         255.255.255.0   U     600    0        0 wlan0
+```
+after enabling eth0
+```
+root@bananapim2ultra:/# nmcli con up fradio
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/10)
+root@bananapim2ultra:/# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         110.168.0.1     0.0.0.0         UG    100    0        0 eth0
+0.0.0.0         192.168.0.1     0.0.0.0         UG    600    0        0 wlan0
+110.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     600    0        0 wlan0
 
+root@bananapim2ultra:/# nmcli d
+DEVICE  TYPE      STATE      CONNECTION 
+eth0    ethernet  connected  fradio     
+wlan0   wifi      connected  UP 1
+
+```
 
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
