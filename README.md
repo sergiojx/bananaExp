@@ -80,6 +80,16 @@ root@bananapim2ultra:/# nmcli con mod UP ipv4.route-metric 99
 
 ```
 This command wont work is actual connection name is "UP 1" or "UP 2", etc
+New output will be:
+```
+root@bananapim2ultra:~# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.1     0.0.0.0         UG    98     0        0 wlan0
+0.0.0.0         110.168.0.1     0.0.0.0         UG    100    0        0 eth0
+110.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     98     0        0 wlan0
+```
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
 https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-development-workload?view=vs-2019  
