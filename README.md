@@ -99,11 +99,30 @@ https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-
 ```
 ~ $ sudo apt-get install openssh-server g++ gdb make ninja-build rsync zip
 ```
-
+```
+root@bananapim2ultra:~# g++ --version
+g++ (Debian 8.3.0-6) 8.3.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+```
+root@bananapim2ultra:~# gdb --version
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+```
 ### Create a new Linux project
 https://docs.microsoft.com/en-us/cpp/linux/create-a-new-linux-project?view=vs-2019  
 
-
+## Cmake
+```
+root@bananapim2ultra:~# apt-get install cmake
+root@bananapim2ultra:~# cmake --version
+cmake version 3.13.4
+```
 ## eMMC copy-clone
 
 https://forum.armbian.com/topic/11404-how-to-clone-emmc-nanopi-neo-core/  
