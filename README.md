@@ -128,3 +128,12 @@ cmake version 3.13.4
 https://forum.armbian.com/topic/11404-how-to-clone-emmc-nanopi-neo-core/  
 
 
+## OpenCV
+### How to Install OpenCV on Debian 10 Linux
+https://linuxize.com/post/how-to-install-opencv-on-debian-10/  
+### Live video streaming over network with OpenCV and ImageZMQ
+https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/
+### imagezmq
+https://github.com/jeffbass/imagezmq
+### ZeroMQ
+https://zeromq.org/get-started/
