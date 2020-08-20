@@ -146,5 +146,6 @@ https://drogon.docsforge.com/
 # IXWebSocket  
 https://github.com/machinezone/IXWebSocket  
 https://machinezone.github.io/IXWebSocket/  
-
+## Installed set  
+https://github.com/machinezone/IXWebSocket/issues/37
 
