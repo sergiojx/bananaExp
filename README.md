@@ -151,6 +151,8 @@ https://github.com/machinezone/IXWebSocket/issues/37
 ### Compilling IXWebSocket basic example
 ```
 g++ --std=c++14  testIxws.cpp -lixwebsocket -lz -lssl -lcrypto -lpthread
+
+g++ --std=c++14  testIxws.cpp -lixwebsocket -lz -lssl -lcrypto -lpthread -ljsoncpp
 ```
 
 
