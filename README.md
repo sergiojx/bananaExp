@@ -146,6 +146,11 @@ https://drogon.docsforge.com/
 # IXWebSocket  
 https://github.com/machinezone/IXWebSocket  
 https://machinezone.github.io/IXWebSocket/  
-## Installed set  
+### Installed set  
 https://github.com/machinezone/IXWebSocket/issues/37
+### Compilling IXWebSocket basic example
+```
+g++ --std=c++14  testIxws.cpp -lixwebsocket -lz -lssl -lcrypto -lpthread
+```
+
 
