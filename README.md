@@ -155,7 +155,7 @@ g++ --std=c++14  testIxws.cpp -lixwebsocket -lz -lssl -lcrypto -lpthread
 g++ --std=c++14  testIxws.cpp -lixwebsocket -lz -lssl -lcrypto -lpthread -ljsoncpp
 ```
 
-# Device could not set format, VIDIOC_S_FMT: Device or resource busy
+# Device could not set format, VIDIOC_S_FMT: Device or resource busy. This was not the probles. Adding Virtual Box USB extension fixed!
 Xwindows is using the camera
 ```
 ~$/dev$ fuser /dev/input/by-id/usb-Microsoft_Microsoft®_LifeCam_HD-3000-event-if00
