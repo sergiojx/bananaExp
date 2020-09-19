@@ -140,6 +140,7 @@ https://github.com/jeffbass/imagezmq
 https://zeromq.org/get-started/
 ### YOLOv3
 https://www.learnopencv.com/deep-learning-based-object-detection-using-yolov3-with-opencv-python-c/ 
+https://github.com/spmallick/learnopencv/tree/master/ObjectDetection-YOLO 
 ### Setting Eclipse OpenCV project
 https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_eclipse/linux_eclipse.html 
 
