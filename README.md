@@ -129,14 +129,21 @@ https://forum.armbian.com/topic/11404-how-to-clone-emmc-nanopi-neo-core/
 
 
 ## OpenCV
-### How to Install OpenCV on Debian 10 Linux
+### How to Install OpenCV on Linux
 https://linuxize.com/post/how-to-install-opencv-on-debian-10/  
+https://docs.opencv.org/4.4.0/d7/d9f/tutorial_linux_install.html
 ### Live video streaming over network with OpenCV and ImageZMQ
 https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/
 ### imagezmq
 https://github.com/jeffbass/imagezmq
 ### ZeroMQ
 https://zeromq.org/get-started/
+### YOLOv3
+https://www.learnopencv.com/deep-learning-based-object-detection-using-yolov3-with-opencv-python-c/ 
+### Setting Eclipse OpenCV project
+https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_eclipse/linux_eclipse.html 
+
+
 
 
 # Drogon C++ web framewok
