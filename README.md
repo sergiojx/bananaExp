@@ -150,6 +150,32 @@ https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_eclipse/linux_eclip
 # Drogon C++ web framewok
 https://github.com/an-tao/drogon  
 https://drogon.docsforge.com/  
+## Installing Drogon dependencies
+### Ubuntu 18.04 
+#### Environment
+```
+sudo apt install git
+sudo apt install gcc
+sudo apt install g++
+sudo apt install cmake
+```
+#### jsoncpp
+```
+sudo apt install libjsoncpp-dev
+```
+#### uuid
+```
+sudo apt install uuid-dev
+```
+#### OpenSSL
+```
+sudo apt install openssl
+sudo apt install libssl-dev
+```
+#### zlib
+```
+sudo apt install zlib1g-dev
+```
 
 # IXWebSocket  
 https://github.com/machinezone/IXWebSocket  
