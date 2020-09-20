@@ -11,6 +11,10 @@ https://unix.stackexchange.com/questions/283722/how-to-connect-to-wifi-from-comm
 
 ## armbian
 https://www.armbian.com/
+### Banana Pi M2 Ultra
+https://www.armbian.com/bananapi-m2u/  
+### Banana Pi M2+
+https://www.armbian.com/banana-pi-m2-plus/  
 
 ## FTDI setup on MAC
 https://learn.sparkfun.com/ftdiDriversMac
