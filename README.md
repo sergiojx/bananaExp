@@ -15,6 +15,8 @@ https://www.armbian.com/
 https://www.armbian.com/bananapi-m2u/  
 #### Banana Pi M2+
 https://www.armbian.com/banana-pi-m2-plus/  
+#### Armbian getting started
+https://docs.armbian.com/User-Guide_Getting-Started/ 
 
 ## FTDI setup on MAC
 https://learn.sparkfun.com/ftdiDriversMac
