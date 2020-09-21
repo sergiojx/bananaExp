@@ -131,7 +131,18 @@ cmake version 3.13.4
 ```
 ## eMMC copy-clone
 
-https://forum.armbian.com/topic/11404-how-to-clone-emmc-nanopi-neo-core/  
+https://forum.armbian.com/topic/11404-how-to-clone-emmc-nanopi-neo-core/ 
+https://forum.armbian.com/topic/1331-armbian-sd-card-backup/ 
+```
+# https://forum.armbian.com/topic/1502-emmc-backup/
+if=/dev/mmcblk1 | gzip > /mnt/mnt1/image.gz # where mnt1 is the mounted uSD
+```
+
+or 
+```
+# https://forum.armbian.com/topic/1331-armbian-sd-card-backup/
+dd if=/dev/mmcblk0 of=/dev/sdb
+```
 
 
 ## OpenCV
