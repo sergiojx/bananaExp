@@ -223,5 +223,6 @@ https://isrv.pw/html5-live-streaming-with-mpeg-dash
 Recording audio through arecord (It will record an audio of 5 secs of U8 formet and mp3 type named sample.mp3)
 ```
 sudo arecord -d 15 -f U8 sample.mp3
+parecord --device=alsa_input.usb-Microsoft_Microsoft___LifeCam_HD-3000-02.analog-mono --record sound2.wav
 
 ```
