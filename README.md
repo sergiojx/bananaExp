@@ -218,3 +218,10 @@ dev/input/event7:    1277
 # HTML5 Live Streaming with MPEG-DASH 
 https://isrv.pw/html5-live-streaming-with-mpeg-dash 
 
+# Audio
+## arecord
+Recording audio through arecord (It will record an audio of 5 secs of U8 formet and mp3 type named sample.mp3)
+```
+sudo arecord -d 15 -f U8 sample.mp3
+
+```
