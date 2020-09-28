@@ -226,7 +226,8 @@ sudo arecord -d 15 -f U8 sample.mp3
 parecord --device=alsa_input.usb-Microsoft_Microsoft___LifeCam_HD-3000-02.analog-mono --record sound2.wav
 
 ```
-
+### How to test microphone with Audio Linux Sound Architecture
+https://linuxconfig.org/how-to-test-microphone-with-audio-linux-sound-architecture-alsa
 ```
 arecord -f S16_LE -d 10 -r 16000 --device="hw:1,0" /tmp/test-mic.wav
 aplay /tmp/test-mic.wav
