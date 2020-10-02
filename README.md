@@ -233,3 +233,5 @@ arecord -f S16_LE -d 10 -r 16000 --device="hw:1,0" /tmp/test-mic.wav
 aplay /tmp/test-mic.wav
 
 ```
+### How to play pcm audio in a browser
+https://www.programmersought.com/article/3010498150/ 
