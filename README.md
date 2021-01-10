@@ -99,6 +99,15 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 110.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 eth0
 192.168.0.0     0.0.0.0         255.255.255.0   U     98     0        0 wlan0
 ```
+
+### How to manage DNS in NetworkManager via console (nmcli)?
+https://serverfault.com/questions/810636/how-to-manage-dns-in-networkmanager-via-console-nmcli
+```
+~ $ nmcli con mod <connectionName> ipv4.dns "8.8.8.8 8.8.4.4"
+~ $ nmcli con down <connectionName>
+~ $ nmcli con up <connectionName>
+```
+
 ## Download, install, and set up the Linux workload 
 ### Download, install, and set up the Linux workload
 https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-development-workload?view=vs-2019  
