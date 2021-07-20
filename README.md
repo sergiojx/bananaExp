@@ -36,6 +36,18 @@ root@bananapim2ultra:/# nmcli con up fradio
 Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/29)
 
 ```
+#### Como conectarse a una red WPA en linea de ordenes con nmcli
+https://www.wifi-libre.com/topic-604-como-conectarse-a-una-red-wpa-en-linea-de-ordenes-con-nmcli.html
+```
+nmcli dev status
+nmcli dev wifi list
+nmcli con add con-name wifistudio ifname wlx0013efa800e4 type wifi ssid TRENDnet410_2.4GHz_2Z43
+nmcli con modify wifistudio wifi-sec.key-mgmt wpa-psk
+nmcli con modify wifistudio wifi-sec.psk wFi@Lbr3?@!¡_kl
+nmcli connection up wifistudio
+nmcli -p c
+nmcli -p con show wifistudio
+```
 #### Ups wlan0 is no longer the default interface
 If eth0 is down, wlan0 gets up. Next command will show wlan0 connection preogres/status
 ```
