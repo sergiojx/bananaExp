@@ -823,9 +823,9 @@ make: Leaving directory '/home/sergio/actor-framework/build'
 
 ```
 #### YOLO4
-https://github.com/sadicLiu/darknet-yolov4#requirements
-https://augmentedstartups.medium.com/how-to-run-yolov4-on-images-and-video-70428e916070
-https://www.programmersought.com/article/10696967944/
-https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
+https://github.com/sadicLiu/darknet-yolov4#requirements 
+https://augmentedstartups.medium.com/how-to-run-yolov4-on-images-and-video-70428e916070 
+https://www.programmersought.com/article/10696967944/ 
+https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos 
 ##### OpenCV 4.5.2
-https://docs.opencv.org/4.5.2/d7/d9f/tutorial_linux_install.html
+https://docs.opencv.org/4.5.2/d7/d9f/tutorial_linux_install.html 
