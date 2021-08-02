@@ -126,6 +126,9 @@ https://docs.microsoft.com/en-us/cpp/linux/download-install-and-setup-the-linux-
 ```
 ~ $ sudo apt-get install openssh-server g++ gdb make ninja-build rsync zip
 ```
+### Cpp 17 in Visual Code
+https://code.visualstudio.com/docs/cpp/config-linux
+https://stackoverflow.com/questions/49397233/how-to-enable-c17-support-in-vscode-c-extension
 ```
 root@bananapim2ultra:~# g++ --version
 g++ (Debian 8.3.0-6) 8.3.0
